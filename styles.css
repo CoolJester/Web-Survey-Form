@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{    
+    background: url(../images/abstract-background.jpg);  
+    background-color: black;  
+    background-size: cover;    
+    background-position: center;
+    background-attachment: fixed;
+    padding: 35px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 55px;    
+    font-weight: 200;
+}
+
+p:first-of-type{
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+
+#form-section{
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+input, select{
+    height: 2em;
+}
+
+label, input, select, textarea{
+    display: block;
+}
+
+label{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+input[type="radio"]{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.refer input{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="text"], input[type="email"], input[type="number"]{
+    margin: 5px 0 0px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px 1px grey;
+    
+}
+
+textarea{
+    width: 96%;
+    padding: 2%;
+}
+
+select{
+    width: 100%;
+    height: 2rem;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 3px 1px grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    background-color: greenyellow;
+    border: none;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(132, 201, 28);
+    cursor: pointer;
+}
